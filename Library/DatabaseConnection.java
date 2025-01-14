@@ -8,7 +8,7 @@ public class DatabaseConnection {
 
   private static final String url = "jdbc:sqlserver://localhost:1433;database=CK_Java;encrypt=true;trustServerCertificate=true;useUnicode=true;characterEncoding=UTF-8;";
   private static final String user = "sa";
-  private static final String password = "18052006";
+  private static final String password = "";
 
   // phương thức kết nối
   public static Connection getConnection() {
